@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import LoginScreenPage from './apps/Screen/LoginScreenPage';
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-expo";
+import { NavigationContainer } from '@react-navigation/native';
+import TabNavigation from './apps/Navigation/TabNavigation';
 
 
 
@@ -25,9 +27,9 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <SignedIn>
-        <Text>
-          You are Signin
-        </Text>
+       <NavigationContainer>
+        <TabNavigation/>
+       </NavigationContainer>
         </SignedIn>
       <SignedOut>
       <LoginScreenPage/>
@@ -40,7 +42,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-
   },
 });
