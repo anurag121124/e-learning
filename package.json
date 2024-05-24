@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.2",
     "@clerk/clerk-expo": "^1.0.5",
     "@react-native-google-signin/google-signin": "^11.0.1",
     "@react-navigation/bottom-tabs": "^6.5.20",
@@ -20,13 +21,15 @@
     "expo-font": "~11.10.3",
     "expo-status-bar": "~1.11.1",
     "expo-web-browser": "^12.8.2",
+    "graphql": "^15.8.0",
     "graphql-request": "^6.1.0",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-gesture-handler": "~2.14.0",
     "react-native-reanimated": "^3.10.0",
-    "react-native-svg": "14.1.0"
+    "react-native-svg": "14.1.0",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

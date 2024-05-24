@@ -6,7 +6,7 @@ import HomeScreen from '../Screen/HomeScreen';
 import MyCourse from '../Screen/MyCourse';
 import LeaderBoard from '../Screen/LeaderBoard';
 import Profile from '../Screen/Profile';
-import color from '../Utils/color';
+import color from '../Utils/Colors';
 import { AntDesign } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 

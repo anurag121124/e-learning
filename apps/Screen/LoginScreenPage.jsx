@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     },
     loginButtonView: {
         alignItems: 'center',
-        marginTop: 20,
+        marginTop: 10,
 
     },
     button: {
@@ -93,7 +93,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         backgroundColor: '#0E2F34',
         borderRadius: 20,
-        marginTop: 40,
 
     },
     buttonText: {

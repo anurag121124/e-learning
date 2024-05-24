@@ -4,8 +4,6 @@ import { useUser } from "@clerk/clerk-expo";
 import { StyleSheet } from "react-native";
 import { SvgXml } from "react-native-svg";
 import { AntDesign } from '@expo/vector-icons';
-import color from "../../Utils/color";
-
 
 const CoinSvg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
 <defs>
@@ -46,7 +44,7 @@ export default function HomeHeader() {
       <View style={{ backgroundColor: 'white', padding: 10, display: 'flex', flexDirection: 'row', justifyContent: 'space-between', 
             borderRadius: 99, paddingLeft: 20, paddingRight: 20, marginTop: 10 }}>
         <TextInput placeholder="Search Courses" style={{ fontFamily: 'outfit', fontSize: 18, padding: 5 }} />
-        <AntDesign name="search1" size={30} color={color.PRIMARY} />
+        <AntDesign name="search1" size={30} color='44B877' />
       </View>
 
     </View>
